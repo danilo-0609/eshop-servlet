@@ -1,0 +1,8 @@
+com\eshopbackend\eshop\servlets\GetProductsByIdServlet.class
+com\eshopbackend\eshop\servlets\PublishProductServlet.class
+com\eshopbackend\eshop\servlets\BuyProductServlet.class
+com\eshopbackend\eshop\servlets\GetProductByPriceServlet.class
+com\eshopbackend\eshop\resources\JakartaEE8Resource.class
+com\eshopbackend\eshop\JakartaRestConfiguration.class
+com\eshopbackend\eshop\responses\ProductResponse.class
+com\eshopbackend\eshop\servlets\GetProductByPriceServlet$1.class

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Bienvenido al servlet de productos</h1>
+        
+        <h2>Obten información de un producto por su Id:</h2>
+        <form action="GetProductsByIdServlet" method="GET">
+            <p><label>Id del producto: </label> <input type="text" name="productId"></p>
+            <button type="submit">Buscar</button>
+        </form>
+        
+        <h2>Compra productos: </h2>
+        <form action="BuyProductServlet" method="POST">
+            <p><label>Id del producto: </label> <input type="text" name="productId"></p>
+            <p><label>Cantidad de productos: </label> <input type="number" name="amountOfProducts"></p>
+            <button type="submit">Comprar</button>
+        </form>
+        
+        <h2>Mira productos en un determinado rango de precios</h2>
+        <form action="GetProductByPriceServlet" method="GET">
+            <p><label>Precio mínimo: </label> <input type="number" name="minPrice"></p>
+            <p><label>Precio máximo: </label> <input type="number" name="maxPrice"></p>
+            <button type="submit">Buscar</button>
+        </form>
+        
+    </body>
+</html>
